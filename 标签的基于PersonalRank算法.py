@@ -6,7 +6,7 @@ import time
 import random
 
 def genData():
-    data=pd.read_csv(r'D:\czq\数据集\ml-latest-small\ml-latest-small\tags.txt',header=None,sep='\t',low_memory=False)
+    data=pd.read_csv(r'tag.txt',low_memory=False)
     # data.columns = ['userID', 'bookmarkID', 'tagID', 'day', 'month', 'year', 'hour', 'minute', 'second']
     # data.drop('day', axis=1, inplace=True)
     # data.drop('month', axis=1, inplace=True)
